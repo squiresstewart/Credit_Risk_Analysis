@@ -1,36 +1,34 @@
 # Credit_Risk_Analysis
 
 ## Overview
-Overview of the loan prediction risk analysis:
+
 The purpose of this analysis is to employ different machine learning techniques to train and evaluate models with unbalanced classes. Using the credit card credit dataset from LendingClub, a peer-to-peer lending services company, data is oversampled using the RandomOverSampler and SMOTE algorithms, and undersampled using the ClusterCentroids algorithm. A combinatorial of over- and undersampling is demonstrated in the SMOTEEN algorithm. Finally two machine learning models that reduce bias, BalancedRandomForestClassifier and EasyEnsembleClassifier, are used to predict credit risk.
 
-## Results: 
+## Results:
 
-- describe the balanced accuracy scores and the precision and recall scores of all six machine learning models. 
+### Balanced accuracy scores and the precision and recall scores of all six machine learning models:
 
-- RandomOverSampler balanced accuracy score, precision, recall
-![randomover.png](./randomover.png)
 
-- EasyEnsembleClassifier balanced accuracy score, precision, recall
-![easyensemble.png](./easyensemble.png)
+- RandomOverSampler balanced accuracy score 63, precision .99, recall .53
+![randomover.png](./Module-17-Challenge-Resources/randomover.png)
 
-- SMOTE accuracy balanced score, precision, recall
-![smoteover.png](./smoteover.png)
+- EasyEnsembleClassifier balanced accuracy score 93, precision .99, recall .94
+![easyensemble.png](./Module-17-Challenge-Resources/easyensemble.png)
 
-- ClusterCentroids balanced accuracy score, precision, recall
-![clustercentroid.png](./clustercentroid.png)
+- SMOTE accuracy balanced score 65, precision .99, recall .68
+![smoteover.png](./Module-17-Challenge-Resources/smoteover.png)
 
-- SMOTEEN balanced accuracy score, precision, recall
-![smoteencombo.png](./smoteencombo.png)
+- ClusterCentroids balanced accuracy score 65, precision .99, recall .68
+![clustercentroid.png](./Module-17-Challenge-Resources/clustercentroid.png)
 
-- BalancedRandomForestClassifier balanced accuracy score, precision, recall
-![balancedrandomforest.png](./balancedrandomforest.png)
+- SMOTEEN balanced accuracy score 65, precision .99, recall .57
+![smoteencombo.png](./Module-17-Challenge-Resources/smoteencombo.png)
 
-- Easy Ensemble AdaBoost Classifier balanced accuracy score, precision, recall
-![EasyEnsembleAdaBoost.png](./EasyEnsembleAdaBoost.png)
+- BalancedRandomForestClassifier balanced accuracy score 76, precision .99, recall .88
+![balancedrandomforest.png](./Module-17-Challenge-Resources/balancedrandomforest.png)
 
-- Use screenshots of your outputs to support your results.
-- There is a bulleted list that describes the balanced accuracy score and the precision and recall scores of all six machine learning models (15 pt)
+- Easy Ensemble AdaBoost Classifier balanced accuracy score 93, precision .99, recall .94
+![EasyEnsembleAdaBoost.png](./Module-17-Challenge-Resources/EasyEnsembleAdaBoost.png)
 
 
 ## Summary: 
