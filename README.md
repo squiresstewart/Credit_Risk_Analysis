@@ -32,10 +32,5 @@ The purpose of this analysis is to employ different machine learning techniques 
 
 
 ## Summary: 
-Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. 
-If you do not recommend any of the models, justify your reasoning.
-
-
-There is a summary of the results (2 pt)
-There is a recommendation on which model to use, or there is no recommendation with a justification (3 pt)
+Based upon all models I think the RandomOverSampler is most suitable. It sacrifices some accuracy but had the least amount of recall which I feel is preferred given the objective. 
 
